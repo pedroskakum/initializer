@@ -1,0 +1,12 @@
+{
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "gitlab.enableExperimentalFeatures": true
+}
