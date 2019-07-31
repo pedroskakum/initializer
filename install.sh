@@ -35,6 +35,7 @@ sudo apt install virtualbox-6.0 --yes
 sudo apt install git --yes
 git config --global user.email "pedroskakum@gmail.com"
 git config --global user.name "Pedro Paulo Skakum"
+sudo apt install git-flow --yes
 
 # Curl
 sudo apt install curl --yes
@@ -65,13 +66,19 @@ sudo mv skaffold /usr/local/bin
 sudo apt-add-repository ppa:fish-shell/release-3 --yes
 sudo apt update --yes
 sudo apt install fish --yes
+chsh -s `which fish` # fish as default shell
 
 # Oh My Fish
 curl -L https://get.oh-my.fish | fish
 
 # Fonts
 # sudo apt install ttf-mscorefonts-installer --yes
-sudo apt-get install fonts-powerline --yes
+# sudo apt-get install fonts-powerline --yes
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
 
 # Install Agnoster theme
 omf install agnoster
@@ -88,4 +95,25 @@ sudo apt update
 sudo apt install docker-ce --yes
 sudo usermod -aG docker ${USER} # (for run docker without sudo)
 
+# Slack
+
+# Google Play
+wget https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v4.6.1/google-play-music-desktop-player_4.6.1_amd64.deb -O gpmdp.deb
+sudo dpkg -i gpmdp.deb
+sudo apt-get install -f -y
+sudo apt-get remove google-play-music-desktop-player
+
+# Scudcloud
+sudo apt-add-repository -y ppa:rael-gc/scudcloud
+sudo apt update && sudo apt dist-upgrade
+echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+sudo apt install scudcloud
+
+# Ao (Microsoft Todo List)
+wget https://github.com/klaussinani/ao/releases/download/v6.8.0/ao-6.8.0-x86_64.AppImage -O ao.appimage
+chmod a+x ao.appimage
+sudo ./ao.appimage
+# or
+# sudo apt install snapd
+# sudo snap install ao --beta
 
