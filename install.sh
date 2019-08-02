@@ -124,3 +124,6 @@ sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/
 sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
 sudo gitlab-runner start
 
+# Helm
+sudo snap install helm --classic
+
