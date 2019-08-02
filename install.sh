@@ -88,6 +88,11 @@ sudo apt update
 sudo apt install docker-ce --yes
 sudo usermod -aG docker ${USER} # (for run docker without sudo)
 
+# Docker Machine
+base=https://github.com/docker/machine/releases/download/v0.16.0 &&
+  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
+  sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+
 # Gitlab Runner
 sudo curl -L --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
 sudo chmod +x /usr/local/bin/gitlab-runner
