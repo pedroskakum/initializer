@@ -15,16 +15,17 @@ The purpose of this repository is to provide an interactive initial installation
 - [x] Kubectl
 - [x] Minikube
 - [x] Skaffold
-- [x] Fish
-- [x] Oh My Fish (and agnoster theme)
+- [ ] Fish
+- [ ] Oh My Fish (and agnoster theme)
 - [x] Microsoft Fonts
-- [x] Gogh (themes for terminal)
+- [ ] Gogh (themes for terminal)
 - [x] Docker
 
 ## Pos Config (beta)
 
 - [x] Dropbox
-- [x] Nodejs
+- [x] Nodejs (via nvm)
+- [x] Agnoster Fish Theme
   
 ## Installation
 
