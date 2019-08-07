@@ -1,5 +1,7 @@
 # Initializer
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+
 [Visit the website](https://pedroskakum.github.io/initializer/)
 
 Repository that automatically installs the programs I use most in my linux distro, with aptitude as a package manager.
