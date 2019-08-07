@@ -85,13 +85,13 @@ install /tmp/docker-machine /usr/local/bin/docker-machine
 
 # Slack
 wget "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.1-amd64.deb"
-dpkg -i gpmdp.deb
+dpkg -i slack-desktop-4.0.1-amd64.deb
 
 # Google Play
 wget https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v4.6.1/google-play-music-desktop-player_4.6.1_amd64.deb -O gpmdp.deb
 dpkg -i gpmdp.deb
-apt-get install --assume-yes --quiet
-apt-get remove google-play-music-desktop-player
+# apt-get install --assume-yes --quiet
+# apt-get remove google-play-music-desktop-player
 
 # Fonts
 echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
