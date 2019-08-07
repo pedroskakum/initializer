@@ -127,6 +127,13 @@ gitlab-runner start
 # Helm
 snap install helm --classic
 
+# SSH
+# echo "Not implemented yet"
+
+# gcloud
+# echo "Not implemented yet"
+
+
 # Fish
 # apt-add-repository ppa:fish-shell/release-3
 # apt-get update
