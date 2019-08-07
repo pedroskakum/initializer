@@ -1,6 +1,6 @@
 # Initializer
 
-(Visit)[https://pedroskakum.github.io/initializer/]
+[Visit](https://pedroskakum.github.io/initializer/)
 
 Repository that automatically installs the programs I use most in my linux distro, with aptitude as a package manager.
 
