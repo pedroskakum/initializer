@@ -34,9 +34,7 @@ The purpose of this repository is to provide an interactive initial installation
 ## Installation
 `git clone https://github.com/pedroskakum/installizer`
 
-`sudo sh installizer/install.sh` (beta)
-
-`sudo sh installizer/pos-install.sh` (alpha)
+`sudo sh installizer/install.sh`
 
 ## Customization
 
