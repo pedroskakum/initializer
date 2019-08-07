@@ -1,5 +1,7 @@
 # Initializer
 
+(Visit)[https://pedroskakum.github.io/initializer/]
+
 Repository that automatically installs the programs I use most in my linux distro, with aptitude as a package manager.
 
 The purpose of this repository is to provide an interactive initial installation script on a newly formatted linux machine. It was created after my dissatisfaction with having to make countless settings every time I formatted my computer. Scripting is not yet interactive, but I can put this functionality ahead if I find it useful to others. I accept code contributions.
