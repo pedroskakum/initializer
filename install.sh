@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# Author: Pedro Paulo Skakum <pedroskakum@gmail.com>
 
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2
@@ -100,6 +102,7 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+fc-cache -f -v
 
 # Scudcloud
 # apt-add-repository ppa:rael-gc/scudcloud

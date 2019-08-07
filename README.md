@@ -1,4 +1,4 @@
-# install-env-linux
+# installizer
 
 Repository that automatically installs the programs I use most in my linux distro, with aptitude as a package manager.
 
@@ -28,14 +28,13 @@ The purpose of this repository is to provide an interactive initial installation
 - [x] Agnoster Fish Theme
   
 ## Installation
+`git clone https://github.com/pedroskakum/installizer`
 
-`sudo sh install.sh`
+`sudo sh installizer/install.sh` (beta)
 
-`sudo sh pos-install.sh` (beta)
+`sudo sh installizer/pos-install.sh` (alpha)
 
 ## Customization
-
-Change the git name and git email in `install.sh` file
 
 Change the file `vscode-settings.json` for your visual studio setup if you prefer.
 
