@@ -133,6 +133,8 @@ snap install helm --classic
 # gcloud
 # echo "Not implemented yet"
 
+ssh-keygen -t ecdsa -b 521
+cat  ~/.ssh/id_ecdsa.pub
 
 # Fish
 # apt-add-repository ppa:fish-shell/release-3
