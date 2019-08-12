@@ -8,5 +8,8 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
-  "gitlab.enableExperimentalFeatures": true
+  "gitlab.enableExperimentalFeatures": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }
